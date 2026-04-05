@@ -5,7 +5,7 @@ from questions import questions
 SCORE_FILE = "scores.txt"
 
 
-# ********** SUBJECT SELECTION **********
+# subject selection
 def choose_subject():
     subjects = ["PYTHON", "C", "C++", "DBMS", "CYBER", "MIX"]
 
@@ -30,14 +30,14 @@ def choose_subject():
             print("Invalid input! Try again.")
 
 
-# ********** FILTER QUESTIONS **********
+# filter
 def filter_questions(subject):
     if subject == "MIX":
         return random.sample(questions, 10)
     return [q for q in questions if q["subject"] == subject]
 
 
-# ********** SAVE SCORE **********
+# score save
 def save_score(name, score, total):
     try:
         with open(SCORE_FILE, "a") as file:
@@ -46,7 +46,7 @@ def save_score(name, score, total):
         print("Error saving score!")
 
 
-# ********** SHOW LEADERBOARD **********
+# leaderboard
 def show_leaderboard():
     print("\n********** LEADERBOARD **********")
     try:
@@ -56,7 +56,7 @@ def show_leaderboard():
         print("No scores yet.")
 
 
-# ********** QUIZ **********
+# quiz fun
 def run_quiz():
     print("Program started...\n")
 
@@ -107,6 +107,6 @@ def run_quiz():
     show_leaderboard()
 
 
-# ********** MAIN **********
+# main
 if __name__ == "__main__":
     run_quiz()
