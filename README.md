@@ -37,10 +37,10 @@ A simple and interactive **Python-based Quiz Game** that tests your knowledge ac
 
 ##  Project Structure
 
-PythonQuiz/
-│── quiz.py
-│── questions.py
-│── scores.txt
+PythonQuiz/<br>
+│── quiz.py<br>
+│── questions.py<br>
+│── scores.txt<br>
 │── README.md
 
 ---
