@@ -1,6 +1,6 @@
 questions = [
 
-# ********** PYTHON (10) **********
+# Python
 {"subject":"PYTHON","question":"Who developed Python?","options":["A. Dennis Ritchie","B. Guido van Rossum","C. James Gosling","D. Bjarne"],"answer":"B"},
 {"subject":"PYTHON","question":"Keyword for function?","options":["A. func","B. define","C. def","D. function"],"answer":"C"},
 {"subject":"PYTHON","question":"Immutable type?","options":["A. List","B. Set","C. Tuple","D. Dict"],"answer":"C"},
@@ -12,7 +12,7 @@ questions = [
 {"subject":"PYTHON","question":"Unordered collection?","options":["A. list","B. tuple","C. set","D. string"],"answer":"C"},
 {"subject":"PYTHON","question":"Division operator?","options":["A. /","B. //","C. %","D. both"],"answer":"D"},
 
-# ********** C (10) **********
+# c
 {"subject":"C","question":"Who developed C?","options":["A. Dennis Ritchie","B. Guido","C. Bjarne","D. Elon"],"answer":"A"},
 {"subject":"C","question":"Comment symbol?","options":["A. //","B. ##","C. %%","D. **"],"answer":"A"},
 {"subject":"C","question":"Output function?","options":["A. cout","B. printf","C. print","D. echo"],"answer":"B"},
@@ -24,7 +24,7 @@ questions = [
 {"subject":"C","question":"Not data type?","options":["A. int","B. float","C. real","D. char"],"answer":"C"},
 {"subject":"C","question":"Logical AND?","options":["A. &","B. &&","C. |","D. ||"],"answer":"B"},
 
-# ********** C++ (10) **********
+# c++
 {"subject":"C++","question":"Who developed C++?","options":["A. Dennis","B. Bjarne Stroustrup","C. Guido","D. James"],"answer":"B"},
 {"subject":"C++","question":"C++ is extension of?","options":["A. Java","B. Python","C. C","D. None"],"answer":"C"},
 {"subject":"C++","question":"Output?","options":["A. printf","B. cout","C. echo","D. print"],"answer":"B"},
@@ -36,7 +36,7 @@ questions = [
 {"subject":"C++","question":"cout operator?","options":["A. >>","B. <<","C. ==","D. &&"],"answer":"B"},
 {"subject":"C++","question":"File extension?","options":["A. .c","B. .py","C. .cpp","D. .java"],"answer":"C"},
 
-# ********** DBMS (10) **********
+# dbms
 {"subject":"DBMS","question":"DBMS stands for?","options":["A. Data Base","B. Database Management System","C. Backup","D. None"],"answer":"B"},
 {"subject":"DBMS","question":"Language used?","options":["A. HTML","B. SQL","C. CSS","D. Python"],"answer":"B"},
 {"subject":"DBMS","question":"Unique key?","options":["A. Foreign","B. Primary","C. Candidate","D. Super"],"answer":"B"},
@@ -48,7 +48,7 @@ questions = [
 {"subject":"DBMS","question":"Filter rows?","options":["A. WHERE","B. ORDER","C. GROUP","D. HAVING"],"answer":"A"},
 {"subject":"DBMS","question":"No duplicate?","options":["A. UNIQUE","B. PRIMARY","C. BOTH","D. NONE"],"answer":"C"},
 
-# ********** CYBER (10) **********
+# cybersecurity
 {"subject":"CYBER","question":"What is phishing?","options":["A. Virus","B. Fraud email","C. Firewall","D. Encryption"],"answer":"B"},
 {"subject":"CYBER","question":"Strong password?","options":["A. 12345","B. password","C. Ab@1234!","D. abc"],"answer":"C"},
 {"subject":"CYBER","question":"Firewall?","options":["A. Virus","B. Security system","C. Program","D. None"],"answer":"B"},
